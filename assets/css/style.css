@@ -6,15 +6,22 @@ body {
 header {
     display: flex;
     border-width: 1px;
-    border-color: black;
+    border-color: #747474;
     border-style: solid;
     padding: 1%;
     background:rgb(203 203 203);
+    background-image: linear-gradient(to right, grey , #b1e2ff); 
     justify-content: space-between;
     height: inherit;
-    text-shadow: -1px -1px 14px #3f3f3f;
+    text-shadow: -1px -1px 14px ##b1e2ff);
 }
 
+.navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
 /* 
 Code referenced from:
 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fixed_menu.
@@ -35,19 +42,13 @@ h2 {
     font-family: fredoka one, sans-serif;
     font-size: 185%;
     border-width: 1px;
-    border-color: black;
+    border-color: #747474;
     border-style: solid;
     padding: 1%;
     background:rgb(203 203 203);
+    background-image: linear-gradient(to right, grey , #b1e2ff); 
 
 
-}
-
-.navbar {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-end;
 }
 
 a {
