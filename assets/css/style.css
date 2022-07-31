@@ -1,10 +1,13 @@
 body {
     margin: 0;
     font-family: Merriweather, sans-serif;
+    padding-top: 20px;
+    background-color: #b1e2ff;
 }
 
 header {
     display: flex;
+    position: absolute;
     border-width: 1px;
     border-color: #747474;
     border-style: solid;
@@ -27,7 +30,6 @@ Code referenced from:
 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fixed_menu.
 Changed overflow value to visible from hidden. */
 .fixed-header {
-    overflow: visible;
     position: fixed;
     top: 0;
     width: -webkit-fill-available;
@@ -36,6 +38,13 @@ Changed overflow value to visible from hidden. */
 h1 {
     display: flex;
     font-size: 200%;
+    align-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+main{
+    margin-top: 44px;
 }
 
 h2 {
@@ -51,7 +60,7 @@ h2 {
 
 }
 
-a {
+#navb {
     display: inline-flex;
     flex-wrap: wrap;
     align-content: flex-end;
@@ -64,9 +73,54 @@ a {
 .me {
     border-radius: 50%;
     width: 33.3%;
-    margin-top: 70px;
+    margin: 2px;
     border: black;
     border-radius: 50%;
     border-width: 1px;
     border-style: solid;
+}
+
+.p1 {
+    display: flex;
+    margin: 25px;
+}
+
+.hor {
+    display: flex;
+    margin-top: 38.781px;
+    margin-bottom: 38.781px;
+}
+
+.placeholder1 {
+    display: flex;
+}
+
+.placeholder2 {
+    display: flex;
+}
+
+.hb {
+    display: flex;
+    margin-top: 29.5px;
+    margin-bottom: 29.5px;
+}
+
+.p6 {
+    display: flex;
+    margin: 25px;
+}
+
+img {
+    display: flex;
+    max-width: 100px;
+    max-height: 100px;    
+}
+
+.apps {
+    display: flex;
+    flex-direction: row;
+    margin: 25px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
 }
