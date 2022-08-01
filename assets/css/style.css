@@ -108,6 +108,8 @@ h2 {
 .p6 {
     display: flex;
     margin: 25px;
+    flex-direction: row;
+    flex-direc;
 }
 
 img {
@@ -121,6 +123,12 @@ img {
     flex-direction: row;
     margin: 25px;
     flex-wrap: wrap;
-    align-content: center;
+    justify-content: space-around;
+}
+
+.p6 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
