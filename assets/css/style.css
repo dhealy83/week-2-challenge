@@ -16,7 +16,7 @@ header {
     background-image: linear-gradient(to right, grey , #b1e2ff); 
     justify-content: space-between;
     height: inherit;
-    text-shadow: -1px -1px 14px ##b1e2ff);
+    text-shadow: -1px -1px 14px #b1e2ff;
 }
 
 .navbar {
@@ -56,8 +56,6 @@ h2 {
     padding: 1%;
     background:rgb(203 203 203);
     background-image: linear-gradient(to right, grey , #b1e2ff); 
-
-
 }
 
 #navb {
@@ -73,7 +71,7 @@ h2 {
 .me {
     border-radius: 50%;
     width: 33.3%;
-    margin: 2px;
+    margin: 25px;
     border: black;
     border-radius: 50%;
     border-width: 1px;
@@ -109,10 +107,9 @@ h2 {
     display: flex;
     margin: 25px;
     flex-direction: row;
-    flex-direc;
 }
 
-img {
+.apps img {
     display: flex;
     max-width: 100px;
     max-height: 100px;    
