@@ -20,4 +20,4 @@ This is a landing page for David Healy's portfolio. Here you will see some basin
 Click the email icon to have you default email handler open an emial to send to me.
 -Click the @ inco to be redirect to my LinkedIn page.
 
-![David Healy's portfolio page](https://dhealy83.github.io/week-2-challenge/)
+![Mock up of the page](assets/images/mock-up.png)
